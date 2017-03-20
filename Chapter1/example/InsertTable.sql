@@ -1,4 +1,4 @@
-##向表中插入数据
+﻿##向表中插入数据
 START TRANSACTION;
 
 INSERT INTO Shohin VALUES ('0001', 'T恤衫', '衣服', 1000, 500, '2009-09-20');
@@ -9,3 +9,5 @@ INSERT INTO Shohin VALUES ('0005', '高压锅', '厨房用具', 6800, 5000, '200
 INSERT INTO Shohin VALUES ('0006', '叉子', '厨房用具', 500, NULL, '2009-09-20');
 INSERT INTO Shohin VALUES ('0007', '擦菜板', '厨房用具', 880, 790, '2009-04-28');
 INSERT INTO Shohin VALUES ('0008', '圆珠笔', '办公用品', 100, NULL, '2009-11-11');
+
+COMMIT;
