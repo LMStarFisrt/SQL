@@ -1,26 +1,26 @@
 SELECT shohin_id,shohin_mei,shiire_tanka
-FROM Shohin;
+FROM shohin;
 
-SELECT * FROM Shohin;
+SELECT * FROM shohin;
 
 SELECT shohin_id AS "商品编号",
         shohin_mei AS "商品名称",
         shiire_tanka AS "进货单价"
-FROM Shohin;
+FROM shohin;
 
 SELECT "商品" AS mojiretsu, 38 AS kazu, '2017-03-21' as hizuke,
         shohin_id,shohin_mei
-FROM Shohin;
+FROM shohin;
 
 SELECT DISTINCT shohin_bunrui
-FROM Shohin;
+FROM shohin;
 
 SELECT DISTINCT shiire_tanka
-FROM Shohin;
+FROM shohin;
 
 SELECT DISTINCT shohin_bunrui, torokubi
-FROM Shohin;
+FROM shohin;
 
 SELECT shohin_mei,shohin_bunrui
-FROM Shohin
+FROM shohin
 WHERE shohin_bunrui = '衣服';

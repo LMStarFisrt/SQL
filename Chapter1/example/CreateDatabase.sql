@@ -1,1 +1,1 @@
-CREATE DATABASE Shohin;
+CREATE DATABASE shohin;
