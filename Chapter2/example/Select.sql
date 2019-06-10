@@ -24,3 +24,10 @@ FROM shohin;
 SELECT shohin_mei,shohin_bunrui
 FROM shohin
 WHERE shohin_bunrui = '衣服';
+
+-- 这是一行注释
+
+/*
+ 这是多行注释
+ */
+ SELECT * FROM shohin
